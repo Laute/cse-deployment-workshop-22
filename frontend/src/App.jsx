@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-const BASE_URL = '/api';
+const BASE_URL = 'https://cse-deployment-workshop-22-production-b323.up.railway.app';
 
 function App() {
   const [results, setResults] = React.useState([]);
